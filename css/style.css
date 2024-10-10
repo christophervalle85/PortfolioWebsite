@@ -1,0 +1,162 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes the full height of the viewport */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font to match modern look */
+    background-color: #0A192F; /* Dark navy background */
+    color: #CCD6F6; /* Light blue text */
+    line-height: 1.6;
+    display: flex; /* Set body as a flex container */
+    flex-direction: column; /* Arrange children (navbar, main, footer) in a column */
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A192F; /* Dark background matching overall theme */
+    padding: 20px 40px;
+    border-bottom: none; /* Subtle bottom border */
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo a {
+    text-decoration: none; /* Remove underline */
+    color: #64FFDA; /* Vibrant teal for logo links */
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    color: #FFFFE0; /* Lighter hover color */
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+    position: relative;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #CCD6F6; /* Light blue for links */
+    font-size: 1rem;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+/* Vertical Divider between links */
+.nav-links li::before {
+    content: '|';
+    color: #8892B0; /* Subtle light blue for divider */
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-links li:first-child::before {
+    content: ''; /* No divider for the first link */
+}
+
+/* Main content */
+main {
+    flex: 1; /* Allow main to grow and fill available space */
+    text-align: center;
+    padding: 50px 20px;
+    color: #CCD6F6; /* Light blue text */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF; /* White main heading */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #8892B0; /* Muted blue for body text */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Button/Link Styling */
+button, .btn {
+    background-color: #64FFDA; /* Teal background */
+    color: #0A192F; /* Dark text on button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #FFFFFF; /* Hover effect for buttons */
+    color: #0A192F; /* Dark text */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0A192F; /* Dark background for footer */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle top border */
+    color: #8892B0; /* Muted blue text */
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #8892B0; /* Muted blue for footer text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 20px 20px; /* Adjust padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically on smaller screens */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 30px 10px;
+    }
+    
+    .btn {
+        font-size: 0.9em;
+    }
+}
