@@ -35,7 +35,7 @@ body {
 
 .logo a {
     text-decoration: none; /* Remove underline */
-    color: #64FFDA; /* Vibrant teal for logo links */
+    color: #ffffff; /* Vibrant teal for logo links */
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -47,7 +47,6 @@ body {
 .name {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #64FFDA; /* Teal for logo text */
 }
 
 /* Navbar Links */
@@ -69,9 +68,6 @@ body {
     transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
-    color: #64FFDA; /* Hover effect: teal */
-}
 
 /* Vertical Divider between links */
 .nav-links li::before {
@@ -110,7 +106,6 @@ p {
 
 /* Button/Link Styling */
 button, .btn {
-    background-color: #64FFDA; /* Teal background */
     color: #0A192F; /* Dark text on button */
     border: none;
     padding: 10px 20px;
