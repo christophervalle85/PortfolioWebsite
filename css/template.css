@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A192F; /* Dark background matching overall theme */
+    padding: 20px 40px;
+    border-bottom: none; /* Subtle bottom border */
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo a {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Vibrant teal for logo links */
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    color: #FFFFE0; /* Lighter hover color */
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+    position: relative;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #CCD6F6; /* Light blue for links */
+    font-size: 1rem;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+/* Vertical Divider between links */
+.nav-links li::before {
+    content: '|';
+    color: #8892B0; /* Subtle light blue for divider */
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-links li:first-child::before {
+    content: ''; /* No divider for the first link */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font */
+    background-color: #0A192F; /* Dark navy background */
+    color: #CCD6F6; /* Light blue text */
+    line-height: 1.6;
+    display: flex; /* Set body as a flex container */
+    flex-direction: column; /* Arrange children in a column */
+    min-height: 100vh; /* Ensure the body takes at least full viewport height */
+}
+
+footer {
+    width: 100%; /* Ensure it takes full width */
+    text-align: center; /* Center text */
+    padding: 10px; /* Smaller padding */
+    background-color: #0A192F; /* Dark background */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle top border */
+    color: #8892B0; /* Muted blue text */
+    margin-top: auto; /* Push footer to the bottom if content is less */
+}

@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="../css/style.css"> 
+<link rel="stylesheet" href="../css/template.css"> 
 
 <nav class="navbar">
     <div class="logo">
         <a href="home.php">
-            <span class="name">Christopher Valle</span>
+            <span class="name">Portfolio</span>
         </a>
     </div>
     <ul class="nav-links">

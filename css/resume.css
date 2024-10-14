@@ -1,0 +1,31 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Section */
+main {
+    background: #0a192f; /* Change this to match your overall theme */ 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allows the main section to expand */
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #333; /* Darker color for better contrast */
+}
+
+/* Iframe */
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Adds space below the iframe */
+}

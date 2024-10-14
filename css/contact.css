@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray; /* Test color */
+}
+
+h1 {
+    text-align: center; /* Centers the heading text */
+    margin-top: 100px;
+}
+
+.contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+#notification {
+    position: fixed;
+    top: 80px; /* Increase this value to move the notification lower */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    padding: 15px 20px; /* Increased padding for thickness */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it's above other content */
+    text-align: center; /* Center the text */
+    width: 80%; /* Optional: Set width to control size */
+    max-width: 600px; /* Optional: Maximum width */
+}

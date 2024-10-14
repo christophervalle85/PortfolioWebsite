@@ -1,0 +1,31 @@
+.home-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    padding: 20px;
+}
+
+.left-content, .right-content {
+    width: 45%; /* Adjust widths as needed */
+    margin: 10px; /* Spacing between columns */
+    padding: 20px; /* Padding inside each content area */
+}
+
+.left-content {
+    margin-left: 40px;
+}
+
+.right-content {
+    margin-right: 40px;
+}
+
+.right-content p {
+    margin-bottom: 40px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+}
+

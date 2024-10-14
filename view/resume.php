@@ -11,6 +11,7 @@
     
     <main>
         <h1>Resume</h1>
+        <iframe src="../images/resume.pdf" title="Resume"></iframe>
     </main>
 
     <footer>
