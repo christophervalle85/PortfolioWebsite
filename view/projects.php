@@ -14,7 +14,7 @@
         <h1>Projects</h1>
         <div class="projects-container">
             <div class="project">
-                <img src="path/to/project1-image.jpg" alt="Project 1">
+                <img src="../images/chatapp.png" alt="Project 1">
                 <div class="project-info">
                     <h2>Chat Server</h2>
                     <p>Chat Server that establishes a secure connection with another client to </p>
@@ -23,7 +23,7 @@
             </div>
 
             <div class="project">
-                <img src="path/to/project2-image.jpg" alt="Project 2">
+                <img src="../images/emailgen.png" alt="Project 2">
                 <div class="project-info">
                     <h2>Email Generator</h2>
                     <p>An app that grants you the ability to create a temporary email to use for temporary subscriptions or accounts using an API.</p>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="project">
-                <img src="path/to/project3-image.jpg" alt="Project 3">
+                <img src="../images/passwordman.png" alt="Project 3">
                 <div class="project-info">
                     <h2>Password Manager</h2>
                     <p>An app that stores and encrypts a user's passwords for safe keeping. The user can use the app to </p>
