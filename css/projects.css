@@ -49,3 +49,7 @@
 .project-info a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+.content-container {
+    margin-bottom: 40px;
+}

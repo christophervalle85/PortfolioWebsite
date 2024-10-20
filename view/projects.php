@@ -10,42 +10,48 @@
     <?php include 'template.php'; ?> 
     
     <main>
-    <div class="content-container">
-        <h1>Projects</h1>
-        <div class="projects-container">
-            <div class="project">
-                <img src="../images/chatapp.png" alt="Project 1">
-                <div class="project-info">
-                    <h2>Chat Server</h2>
-                    <p>Chat Server that establishes a secure connection with another client to </p>
-                    <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
+        <div class="content-container">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="../images/chatapp.png" alt="Project 1">
+                    <div class="project-info">
+                        <h2>Chat Server</h2>
+                        <p><strong>Description:</strong>  real-time chat server built using Node.js and WebSocket, allowing users to communicate securely and instantly.</p>
+                        <p><strong>Skills Used:</strong> Node.js, WebSocket, Express, Socket.io, MongoDB.</p>
+                        <p><strong>Key Features:</strong> User authentication, message encryption, and group chats.</p>
+                        <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <img src="../images/emailgen.png" alt="Project 2">
-                <div class="project-info">
-                    <h2>Email Generator</h2>
-                    <p>An app that grants you the ability to create a temporary email to use for temporary subscriptions or accounts using an API.</p>
-                    <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
+                <div class="project">
+                    <img src="../images/emailgen.png" alt="Project 2">
+                    <div class="project-info">
+                        <h2>Email Generator</h2>
+                        <p><strong>Description:</strong> A web application that allows users to create temporary email addresses for anonymous sign-ups and registrations.</p>
+                        <p><strong>Skills Used:</strong> PHP, JavaScript, RESTful APIs, HTML/CSS.</p>
+                        <p><strong>Key Features:</strong> API integration for email creation, user-friendly interface, and email forwarding functionality.</p>
+                        <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project">
-                <img src="../images/passwordman.png" alt="Project 3">
-                <div class="project-info">
-                    <h2>Password Manager</h2>
-                    <p>An app that stores and encrypts a user's passwords for safe keeping. The user can use the app to </p>
-                    <a href="https://github.com/username/project3" target="_blank">View on GitHub</a>
+                <div class="project">
+                    <img src="../images/passwordman.png" alt="Project 3">
+                    <div class="project-info">
+                        <h2>Password Manager</h2>
+                        <p><strong>Description:</strong> A secure password manager that stores and encrypts user passwords, enabling users to manage their credentials safely.</p>
+                        <p><strong>Skills Used:</strong> Python, Flask, SQLAlchemy, AES encryption.</p>
+                        <p><strong>Key Features:</strong> User authentication, password generation, and secure storage.</p>
+                        <a href="https://github.com/username/project3" target="_blank">View on GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
-
+    </main>
 
     <footer>
         <p>&copy; 2024 Christopher Valle</p>
     </footer>
 </body>
 </html>
+
